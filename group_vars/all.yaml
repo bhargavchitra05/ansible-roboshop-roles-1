@@ -10,10 +10,3 @@ SHIPPING_HOST: shipping-dev.zenvyproducts.online
 RABBITMQ_HOST: rabbitmq-dev.zenvyproducts.online
 PAYMENT_HOST: payment-dev.zenvyproducts.online
 FRONTEND_HOST: frontend-dev.zenvyproducts.online
-
-
-
-
-
-
-
