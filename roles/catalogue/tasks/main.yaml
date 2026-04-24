@@ -37,7 +37,7 @@
   when: catalogue_output.stdout  | int < 0
 
 - name: start catalogue
-  tags:
+  tags: 
   - deployment
   ansible.builtin.service:
     name: catalogue
