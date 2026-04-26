@@ -3,10 +3,13 @@ region:
 - us-east-1
 hostnames:
 - private-ip-address
-
 filters:
   instance-state-name: running
   tag:Name: frontend-dev
+compose:
+ #this sets the ansible_host variable to the private ip address of the ec2 instance
+  ansible_host: private-ip-address
 keyed_groups: 
 - prefix: ""
-  key: frontend-dev
+  key: frontend
+
