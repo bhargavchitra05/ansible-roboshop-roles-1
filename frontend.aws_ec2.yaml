@@ -3,7 +3,9 @@ region:
 - us-east-1
 hostnames:
 - private-ip-address
+keyed_groups: 
+- prefix: ""
+  key: frontend-dev
 filters:
   instance-state-name: running
   tag:Name: frontend-dev
-  
