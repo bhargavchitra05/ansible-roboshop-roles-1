@@ -10,6 +10,6 @@ compose:
  #this sets the ansible_host variable to the private ip address of the ec2 instance
   ansible_host: private-ip-address
 keyed_groups: 
-- prefix: ""
-  key: tag.Name
+- separator: ''
+  key: frontend 
 
