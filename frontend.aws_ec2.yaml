@@ -12,4 +12,3 @@ compose:
 keyed_groups: 
 - separator: ''
   key: tags .component
-
